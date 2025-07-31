@@ -36,7 +36,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group">
+    <div className="bg-pink-200 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group">
       <div className="relative overflow-hidden">
         <img
           src={product.imageUrl}
